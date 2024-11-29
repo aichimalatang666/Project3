@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView用法"
+        android:backgroundTint="#009688"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/button_alertdialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog用法"
+        android:backgroundTint="#009688"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/button_xmlmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XML定义菜单"
+        android:backgroundTint="#009688"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/button_actionmode_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ActionMode菜单"
+        android:backgroundTint="#009688"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
